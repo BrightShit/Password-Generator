@@ -2,8 +2,6 @@
 from random import randint
 import random
 import string
-
-from numpy import pad
 string.ascii_letters
 string.ascii_lowercase
 string.ascii_uppercase
