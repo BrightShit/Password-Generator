@@ -18,7 +18,8 @@ def password():
     special=random.choice('!@#$%^&*()_+=-') #Generatess random special characters
     all = letter1 + letter2 + letter3 + letter4 + letter5 + Password1 + Password2 + Password3 + Password4 + Password5 + special
     print(all)
-    file=open("C:/Users/nitay\Desktop/PASSWORD.txt", "w")
+    file=open("PASSWORD.txt", "w")
     file.write(all)
     file.close
 password()
+
