@@ -1,8 +1,5 @@
 from logging import root
 from random import randint
-import tkinter as tk
-import random
-from tkinter import Canvas, filedialog, Text
 import string
 
 from numpy import pad
