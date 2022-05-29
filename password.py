@@ -1,5 +1,6 @@
-from logging import root
+
 from random import randint
+import random
 import string
 
 from numpy import pad
