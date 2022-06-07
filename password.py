@@ -20,6 +20,8 @@ def password():
     print(all)
     file=open("PASSWORD.txt", "w")
     file.write(all)
-    file.close
+    file.close()
+    input()
 password()
+
 
